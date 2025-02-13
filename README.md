@@ -45,6 +45,12 @@ Restart Home Assistant
 ### Step 5
 Configure Integration from Home Assistant Integration menu
 
+Browse to your Home Assistant instance.
+Go to Settings > Devices & Services.
+In the bottom right corner, select the Add Integration button.
+From the list, select EHEIM Digital. (make sure you select the correct one associated with this repository)
+Follow the instructions on screen to complete the setup.
+
 ## Manual installtion
 
 if you cannot use HACS you can also copying the `custom_components\eheim_digital` directory in this repository to the `/config/custom_components` folder manually and restart Home Assistant.
